@@ -51,6 +51,7 @@ To get started with the bot, follow these steps:
   "howManyTimesToUpgrade_StrategicPlanning_Skill": 5,
   "howManyPointsYouWantToContributeToLeague": 100000,
   "isContributeAutomatic": true,
+  "referralCode": "OdZUfRzp80",
   "itemThatYouWantToContributeToLeague": ["RAM_4GB", 1] - Fill the item's code and number of item, find number code in items.json file.
 }
 
