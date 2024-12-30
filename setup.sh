@@ -30,16 +30,27 @@ fi
 create_default_configs() {
     cat > configs.json << EOL
 {
-    "timeZone": "en-US",
-    "rotateProxy": false,
-    "skipInvalidProxy": false,
-    "proxyRotationInterval": 2,
-    "delayEachAccount": [5, 8],
-    "timeToRestartAllAccounts": 300,
-    "howManyAccountsRunInOneTime": 10,
-    "doTasks": true,
-    "playGames": true,
-    "referralCode": ""
+  "timeZone": "en-US",
+  "delayEachAccount": [5, 8],
+  "timeToRestartAllAccounts": 300,
+  "skipInvalidProxy": false,
+  "howManyAccountsRunInOneTime": 100,
+  "isDoTasks": true,
+  "isPlayGames": true,
+  "isBuyCards": true,
+  "maxPriceOfItems": 50000000,
+  "howManyPiecesOfEachItem": 1,
+  "howManyBoxsDoYouWantToBuy": 5,
+  "isUpgradeSkills": true,
+  "howManyTimesToUpgrade_Programming_Skill": 5,
+  "howManyTimesToUpgrade_Financial_Skill": 5,
+  "howManyTimesToUpgrade_Innovation_Skill": 5,
+  "howManyTimesToUpgrade_DataAnalysis_Skill": 5,
+  "howManyTimesToUpgrade_StrategicPlanning_Skill": 5,
+  "howManyPointsYouWantToContributeToLeague": 100000,
+  "isContributeAutomatic": true,
+  "referralCode": "OdZUfRzp80",
+  "itemThatYouWantToContributeToLeague": ["RAM_4GB", 1]
 }
 EOL
 }
