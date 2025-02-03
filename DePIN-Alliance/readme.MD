@@ -1,5 +1,8 @@
 📞 Contact
 
+> [Termux guides if you run on mobile](https://github.com/MeoMunDep/Guides-for-using-my-script-on-termux.)
+
+
 > If you encounter any issues or have questions, feel free to reach out:
 
 - Contact: [Link](t.me/MeoMunDep)
@@ -14,7 +17,13 @@ To get started with the bot, follow these steps:
 
 0. **Dowload NodeJS to run the bot**
 
--> [Link](https://t.me/KeoAirDropFreeNe/257/1462)
+- **Node.js** (Version: `22.11.0`)
+- **npm** (Version: `10.9.0`)
+
+Download Node.js and npm here: [Download Link](https://t.me/KeoAirDropFreeNe/257/1462).
+
+-> Double click on `setup.bat` for windows or `setup.sh` for linux/mac if you want to run automatically, remember to fill all the necessary data.
+
 
 1. **Install Dependencies and Modules:**
 
@@ -35,10 +44,11 @@ To get started with the bot, follow these steps:
   "timeZone": "en-US",
   "delayEachAccount": [5, 8],
   "timeToRestartAllAccounts": 300,
+  "skipInvalidProxy": false,
   "howManyAccountsRunInOneTime": 100,
-  "isDoTasks": false,
+  "isDoTasks": true,
   "isPlayGames": true,
-  "isBuyCards": false,
+  "isBuyCards": true,
   "maxPriceOfItems": 50000000,
   "howManyPiecesOfEachItem": 1,
   "howManyBoxsDoYouWantToBuy": 5,
@@ -49,8 +59,11 @@ To get started with the bot, follow these steps:
   "howManyTimesToUpgrade_DataAnalysis_Skill": 5,
   "howManyTimesToUpgrade_StrategicPlanning_Skill": 5,
   "howManyPointsYouWantToContributeToLeague": 100000,
+  "isContributeAutomatic": true,
+  "referralCode": "OdZUfRzp80",
   "itemThatYouWantToContributeToLeague": ["RAM_4GB", 1] - Fill the item's code and number of item, find number code in items.json file.
 }
+
 ```
 
 ### 2. `datas.txt` 🗂️ - Get it from here >>> [Link](https://t.me/KeoAirDropFreeNe/257/6879)
@@ -62,6 +75,9 @@ query_id.../user...
 ```
 
 ### 3. `wallets.txt` 💼 - Cannot update yet.
+
+- Wallets generator: [Link](https://github.com/MeoMunDep/Automatic-Ultimate-Create-Wallets-for-Airdrop)
+
 
 ```txt - wallet address
 abc...xyz
@@ -81,6 +97,6 @@ socks5://user:password@host:port
 💡 Usage:
 
 > You need to `cd` to the file after extract it
-> To run the bot, use the following command: `node bot`
+> To run the bot, use the following command: `cd depin-alliance-main/depin-alliance; node meomundep`
 
 🎇Enjoy!

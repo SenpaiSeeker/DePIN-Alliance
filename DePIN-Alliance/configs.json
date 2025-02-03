@@ -2,6 +2,7 @@
   "timeZone": "en-US",
   "delayEachAccount": [5, 8],
   "timeToRestartAllAccounts": 300,
+  "skipInvalidProxy": false,
   "howManyAccountsRunInOneTime": 100,
   "isDoTasks": true,
   "isPlayGames": true,
@@ -16,5 +17,7 @@
   "howManyTimesToUpgrade_DataAnalysis_Skill": 5,
   "howManyTimesToUpgrade_StrategicPlanning_Skill": 5,
   "howManyPointsYouWantToContributeToLeague": 100000,
+  "isContributeAutomatic": true,
+  "referralCode": "OdZUfRzp80",
   "itemThatYouWantToContributeToLeague": ["RAM_4GB", 1]
 }
